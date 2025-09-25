@@ -1,0 +1,91 @@
+/* Font modern */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f4f9f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 5px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 8px 15px;
+  border-radius: 20px;
+  transition: background 0.3s;
+}
+
+nav ul li a:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+/* Konten utama */
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+section h2 {
+  color: #27ae60;
+  margin-bottom: 10px;
+}
+
+/* Kontak */
+#kontak a {
+  color: #27ae60;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#kontak a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #2ecc71;
+  color: white;
+  margin-top: 30px;
+}
